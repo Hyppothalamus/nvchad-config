@@ -14,6 +14,15 @@ M = {
     nvdash = {
       load_on_startup = true,
     },
+
+    telescope = {
+      style = "bordered"
+    },
+
+    statusline = {
+      theme = "minimal",
+      separator_style = "round",
+    }
   },
 
   plugins = "custom.plugins",
