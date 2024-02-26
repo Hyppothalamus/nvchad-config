@@ -7,7 +7,11 @@ local plugins = {
 
     {
         "mistricky/codesnap.nvim",
-        build = "make"
+        build = "make",
+        config = function ()
+            require "custom.configs.codesnap"
+        end,
+        lazy = false
     },
 
     {
